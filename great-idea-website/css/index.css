@@ -63,4 +63,101 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/*
+Your code starts here!
+*/
+
+/* General */
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --nav-text: rgb(210, 210, 210);
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: var(--bg-color);
+}
+
+/* Text */
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin: auto;
+}
+p {
+  line-height: 17.5px;
+}
+a {
+  text-decoration: none;
+  color: var(--nav-text);
+}
+
+/* Header */
+
+header nav {
+  min-width: 100%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+header nav a {
+  padding: 10px;
+  margin: 10px;
+  font-size: 0.75rem;
+}
+
+header nav img {
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.logo-div {
+  float: right;
+}
+
+/* Sections */
+
+section {
+  position: relative;
+  min-width: 800px;
+  float: left;
+  clear: none;
+  margin: 0;
+  
+}
+
+section:bottom {
+  margin:100px;
+}
+
+section div {
+  padding: 10px;
+  margin: 2px;
+  margin-top: 35px;
+}
+
+.one-div, .two-divs, .three-divs {
+  width: 800px;
+}
+
+.three-divs div {
+  max-width: 30%;
+  float: left;
+}
+
+.two-divs div {
+  max-width: 48%;
+  float: left;
+}
+
+#page-heading {
+  margin: auto;
+}
+
+#circle-img {
+  background: none;
+}
